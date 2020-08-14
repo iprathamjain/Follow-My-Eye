@@ -82,7 +82,7 @@ window.ui = {
       this.state = 'trained';
       this.showInfo(
         '<h3>Good job!</h3>' +
-          'The green target should start following your eyes around.<br>' +
+          'The red target should start following your eyes around.<br>' +
           "Let's collect more training data for better accuracy, keep training again!",
       );
     } else if (this.nTrainings == 2) {
